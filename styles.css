@@ -12,9 +12,10 @@ View the project on Github : https://github.com/akzhy/Vara
     body {
       background: #fff4d3;
       text-align: center;
-      font-family: "Roboto", sans-serif;
+      font-family: 'Charmonman', cursive;
       overflow: hidden;
-      font-size: 16px;
+      font-size: 2em;
+      color: rgb(4, 11, 20);
     }
 
     * {
@@ -22,9 +23,13 @@ View the project on Github : https://github.com/akzhy/Vara
       padding: 0;
       box-sizing: border-box;
     }
-
+    p {
+      padding: 15px;
+      text-align: center;
+      font-size: 16px;
+    }
     #container {
-      width: 60%;
+      width: 80%;
       margin: 20px auto;
     }
 
@@ -42,7 +47,7 @@ View the project on Github : https://github.com/akzhy/Vara
 
     .book {
       transform-style: preserve-3d;
-      transform: rotateX(45deg) rotateY(0deg) rotateZ(-5deg);
+      transform: rotateX(25deg) rotateY(0deg) rotateZ(-5deg);
       transition: transform 1s;
       position: absolute;
       left: 0;
@@ -57,14 +62,25 @@ View the project on Github : https://github.com/akzhy/Vara
     .book .side {
       width: 3em;
       height: 40em;
-      background: #b36060;
+      background: rgb(31, 42, 72);
       position: absolute;
       left: -3em;
       top: 0;
       transform-origin: 100% 100%;
       transform: rotateY(-90deg) rotateX(0deg);
     }
-
+    .img1 {
+      width: 20vw;
+      padding: 12px;
+    }
+    .page1 {
+      color: #fff;
+      padding: 4px;
+      font-weight: 100 !important;
+    }
+    .pinkbg {
+      background-color: #f6bfdd;
+    }
     .book .bottom {
       width: 25em;
       height: 3em;
@@ -77,7 +93,7 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book.open {
-      transform: rotateX(35deg) rotateY(0deg) rotateZ(-3deg);
+      transform: rotateX(35deg) rotateY(0deg) rotateZ(-30deg);
     }
 
     .book .paper,
@@ -123,14 +139,14 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book .first .page {
-      background: #ef9a9a;
+      background: rgb(31, 42, 72);
     }
 
     .book .first .page.front:after {
       position: absolute;
       content: "";
       width: 50%;
-      height: 100%;
+      height: 0;
       left: 0;
       top: 0;
       background: rgba(160, 115, 115, 0.1);
@@ -143,7 +159,7 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book .first.paper .back {
-      background: #ef9a9a;
+      background: rgb(31, 42, 72);
     }
 
     .book .intro {
@@ -152,7 +168,7 @@ View the project on Github : https://github.com/akzhy/Vara
       width: calc(100% - 3em);
       height: 90%;
       height: calc(100% - 3em);
-      border: 2em solid #eee;
+      border: 1px solid #eee;
       left: 0;
       top: 0;
       right: 0;
@@ -161,8 +177,8 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book .intro h2 {
-      padding: 0.5em 0.5em;
-      font-size: 2em;
+      padding: 0.2em;
+      font-size: 3em;
       color: #fff;
       word-break: break-all;
       text-align: left;
@@ -177,7 +193,7 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book .paper:not(.first) .page {
-      background: #f1f1f1;
+      background: #e7e2e4;
       background-image: linear-gradient(90deg,
           transparent 40px,
           #abced4 20px,
@@ -188,7 +204,7 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book .paper:not(.first) .back {
-      background: #e1e1e1;
+      background: #e7e2e4;
     }
 
     .book .open.second .back {
