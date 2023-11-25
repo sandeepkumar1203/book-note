@@ -24,9 +24,9 @@ View the project on Github : https://github.com/akzhy/Vara
       box-sizing: border-box;
     }
     p {
-      padding: 15px;
+      padding: 6px;
       text-align: center;
-      font-size: 16px;
+      font-size: 14px;
     }
     #container {
       width: 80%;
