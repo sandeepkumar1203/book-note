@@ -1,13 +1,13 @@
 const winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 const ratio = winWidth / 1920;
 const fontSize = {
-  small: 10,
-  medium: 12,
+  small: 12,
+  medium: 14,
 };
 const played = [0, 0, 0];
 const vara = [];
 const bodyFontSize = Math.max(16 * ratio, 10);
-const posX = Math.max(10 * ratio, 30);
+const posX = Math.max(80 * ratio, 30);
 
 document.body.style.fontSize = `${bodyFontSize}px`;
 fontSize.small = Math.max(fontSize.small * ratio, 7);
@@ -25,7 +25,7 @@ vara[0] = createVaraContainer(
       text: "15 Jan 2019",
       textAlign: "right",
       y: 20,
-      x: -100,
+      x: -30,
       delay: 500,
       duration: 1500,
       fontSize: fontSize.small,
@@ -34,7 +34,6 @@ vara[0] = createVaraContainer(
       text: "Start the year with something cool.",
       y: 40,
       x: posX,
-      color: "rgb(4, 11, 20)",
       duration: 4000,
     },
     {
