@@ -93,7 +93,7 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book.open {
-      transform: rotateX(35deg) rotateY(0deg) rotateZ(-30deg);
+      transform: rotateX(35deg) rotateY(0deg) rotateZ(--15deg);
     }
 
     .book .paper,
@@ -270,5 +270,10 @@ View the project on Github : https://github.com/akzhy/Vara
         padding: 8px;
         text-align: center;
         font-size: 14px !important;
+      }
+        .img1 {
+        width: 40vw;
+        padding: 12px;
+        align-items: center;
       }
     }
