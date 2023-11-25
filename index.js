@@ -6,7 +6,7 @@ const fontSize = {
 };
 const played = [0, 0, 0,0];
 const vara = [];
-const bodyFontSize = Math.max(16 * ratio, 10);
+const bodyFontSize = Math.max(10 * ratio, 10);
 const posX = Math.max(80 * ratio, 30);
 let currentPage = 1;
 

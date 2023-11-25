@@ -264,6 +264,11 @@ View the project on Github : https://github.com/akzhy/Vara
 
     @media (max-width: 700px) {
       .book {
-        left: 50%;
+        left: 15% !important;
+      }
+      p {
+        padding: 8px;
+        text-align: center;
+        font-size: 14px !important;
       }
     }
