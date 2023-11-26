@@ -14,7 +14,7 @@ View the project on Github : https://github.com/akzhy/Vara
       text-align: center;
       font-family: 'Charmonman', cursive;
       overflow: hidden;
-      font-size: 2em;
+      font-size: 12px;
       color: rgb(4, 11, 20);
     }
 
@@ -24,9 +24,9 @@ View the project on Github : https://github.com/akzhy/Vara
       box-sizing: border-box;
     }
     p {
-      padding: 6px;
+      padding: 4px;
       text-align: center;
-      font-size: 14px;
+      font-size: 16px;
     }
     #container {
       width: 80%;
@@ -70,7 +70,7 @@ View the project on Github : https://github.com/akzhy/Vara
       transform: rotateY(-90deg) rotateX(0deg);
     }
     .img1 {
-      width: 20vw;
+      width: 15vw;
       padding: 12px;
     }
     .page1 {
@@ -93,7 +93,7 @@ View the project on Github : https://github.com/akzhy/Vara
     }
 
     .book.open {
-      transform: rotateX(35deg) rotateY(0deg) rotateZ(--15deg);
+      transform: rotateX(35deg) rotateY(0deg) rotateZ(-15deg);
     }
 
     .book .paper,
@@ -271,7 +271,7 @@ View the project on Github : https://github.com/akzhy/Vara
         text-align: center;
         font-size: 14px !important;
       }
-        .img1 {
+      .img1 {
         width: 40vw;
         padding: 12px;
         align-items: center;
