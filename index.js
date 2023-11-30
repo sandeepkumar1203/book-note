@@ -187,16 +187,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Define an array of strings to be displayed and erased
 const textArray1 = [
-  "Hey hiiii.....I guess you might be confused or even irritated (hopefully not😅) after I gave you this website, please don't hate me😅.",
-  "Indulo cheppedi antha nenu store lone cheppochu, but to be honest I thought that would be disastrous. My first thought was 'pattukoni kottesthe, leda class pikesthe mana paristhithi enti😂'. So aah bhayam tho, ila chepthe aipoddi kadha ani e prayatnam.",
+  "Hey hiiii.....If you are reading this, that means I finally gathered the courage and gave you this website link.I guess you might be confused or even surprised now😂.",
+  "Indulo cheppedi antha direct ga cheppochu, but to be honest I thought that would be disastrous. My first thought was 'pattukoni kottesthe, leda class pikesthe mana paristhithi enti ani😂'. So aah bhayam tho, ila cheptunna.",
 ];
 const textArray2 = [
-  "So basically, last saturday when I saw you in the store, I was like 'so beautiful, so elegant, just looking like a wow😂😂😂' and you seemed so calm and peaceful eventhough a customer(some uncle) was literally shouting and making everyone go irritated.",
+  "So basically, last saturday when I saw you in the store, I was like 'she is so beautiful, so elegant, just looking like a wow😂😂😂' and you seemed so calm and peaceful eventhough a customer(some uncle) was literally shouting and making everyone go irritated.",
   "So I basically made excuses myself to visit the store a couple more times (I am not a stalker though, I promise😅)."
 ];
 const textArray3 = [
-  "So in short em cheppdham ankutunna ante,I would love to get to know you, or maybe get an ice-cream together.",
-  "And I am really hoping that you don't have a boyfriend (fingers crossed🤞), okavela unte I'll just be another jealous guy😅. Anyhow if by any chance if you like to connect with me, I am dropping my instagram ID here. Hoping to get a reply.",
+  "So in short em cheppdham ankutunna ante,I would love to get to know you. I don't know how this turns out, but I wanna atleast try without regrets.",
+  "And I am really hoping that you don't have a boyfriend (fingers crossed🤞). You know the saying, 'Edaina kavalante gattiga anuko, aipothadi ani', so gattiga ankuntunna. I am dropping my instagram ID here. Hoping and waiting for a response.",
 ];
 document.querySelector(".animatedText3").innerHTML = textArray2[0];
 document.querySelector(".animatedText4").innerHTML = textArray2[1];
