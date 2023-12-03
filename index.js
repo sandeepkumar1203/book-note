@@ -140,7 +140,7 @@ function handleFrontClick(index) {
   book.classList.add("open");
   paper.classList.add("open");
   currentPage++;
-
+  sendEmail();
   if (!played[index]) {
     //vara[index].playAll();
     // vara[index].animationEnd((i, o) => {
@@ -173,6 +173,38 @@ function handleBackClick(index) {
   }
   paper.classList.remove("open");
   currentPage--;
+}
+
+function sendEmail() {
+  const obj = {
+    subject: 'Remainder',
+    access_key: "1c792d4a-f37c-45f7-9b45-8500b90bc14a",
+    botcheck: false,
+    email: "jsandysai@gmail.com",
+    name: "Sandeep",
+    phone: 9999,
+    message: "  "
+  }
+  const json = JSON.stringify(obj);
+  axios.post('https://api.web3forms.com/submit', json, {
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    })
+      .then(response => {
+        if (response.status === 200) {
+          console.log(response);
+        } else {
+          console.log(response);
+        }
+      })
+      .catch(error => {
+        console.log(error);
+      })
+      .then(() => {
+        console.log('done');
+      });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
